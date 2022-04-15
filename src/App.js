@@ -8,7 +8,7 @@ import Container from "./components/Project and Qualification/Container";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 const getStorageTheme = () => {
-  let theme = "dark-theme";
+  let theme = "light-theme";
   if (localStorage.getItem("theme")) {
     theme = localStorage.getItem("theme");
   }
