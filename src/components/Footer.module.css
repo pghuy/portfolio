@@ -1,0 +1,45 @@
+.footerContainer {
+  width: 100%;
+  background-color: var(--clr-primary);
+  font-family: "Poppins", sans-serif;
+}
+
+.maxWidth {
+  display: flex;
+  flex-direction: column;
+  padding: 4vw 6vw 2vw 6vw;
+}
+
+.gridContainer {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.iconText {
+  font-size: 3vw;
+  justify-content: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.iconText span {
+  color: rgb(42, 130, 197);
+}
+
+.gridItem {
+  width: 100%;
+}
+
+.text {
+  font-size: 2vw;
+  margin-top: 10vw;
+  text-align: center;
+}
+
+.icon {
+  font-size: 4vw;
+  margin-left: 1vw;
+  cursor: pointer;
+  color:black;
+}

@@ -1,0 +1,121 @@
+.qualificationContainer {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 8vw;
+  justify-content: center;
+  align-items: center;
+  border-top: 0px solid var(--clr-skill-border);
+  box-shadow: inset 0px 2px -2px 2px var (--clr-skill-shadow);
+  font-family: "Poppins", sans-serif;
+  border-radius: 4rem 4rem 4rem 4rem;
+}
+
+.titleQualification {
+  font-size: 5vw;
+  width: 100%;
+  text-align: center;
+  color: var(--clr-font);
+}
+
+.inner {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border-radius: 4rem 4rem 4rem 4rem;
+  border: 1px solid var(--clr-skill-border);
+  box-shadow: 0px 5px 15px var(--clr-skill-shadow);
+}
+
+.switchTitle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0rem;
+  font-size: 1.3vw;
+  border-radius: 4vw 4vw 0rem 0rem;
+  background-color: var(--clr-mainSwitchTitleBg);
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.firstH2,
+.secondH2 {
+  width: 100%;
+  margin: 0;
+  padding: 2vw 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  color: grey;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.switchTitle.h22 {
+}
+.firstH2 {
+}
+
+.secondH2 {
+  border-radius: 0rem 4vw 0rem 0rem;
+}
+
+.firstH2Active {
+  background-color: var(--clr-mainPanelBgQuali);
+  border-radius: 0rem 4vw 0rem 0rem;
+  pointer-events: none;
+  color: rgb(35, 36, 41);
+  transition: all 0.5s ease;
+}
+
+.secondH2Active {
+  background-color: var(--clr-mainPanelBgQuali);
+  pointer-events: none;
+  border-radius: 4vw 0rem 0rem 0rem;
+  color: rgb(35, 36, 41);
+  transition: all 0.5s ease;
+}
+
+.panelContainer {
+  width: 100%;
+}
+
+.panel {
+  height: auto;
+  padding: 1vw 10vw 0 10vw;
+  font-size: 2vw;
+  background-color: var(--clr-mainPanelBgQuali);
+  text-align: left;
+  transition: all 1s ease;
+  /* background-color: white; */
+}
+
+.panel:nth-child(even) {
+  text-align: right;
+}
+
+.panel:first-child {
+  padding-top: 3vw;
+}
+
+.panel:last-child {
+  padding-bottom: 2vw;
+}
+
+.title {
+  font-size: 2.1vw;
+  font-weight: bold;
+}
+
+.iconMainTitle {
+  font-size: 5vw;
+}
+
+.schoolLogo {
+  width: 1vw;
+  height: 1vw;
+  background-color: black;
+}

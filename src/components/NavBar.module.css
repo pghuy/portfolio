@@ -1,0 +1,147 @@
+.nav {
+  transition: all 0.5s ease-out;
+  transition: color 0s;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background: var(--clr-bcg);
+  z-index: 2000;
+  font-family: "europa", sans-serif;
+  color: var(--clr-font);
+}
+.nav-content {
+  transition: all 0.5s ease-out;
+  padding: 20px 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* #f3ecec */
+.nav-sticky {
+  transition: all 0.5s ease-in;
+  z-index: 2000;
+  background: var(--clr-navBar);
+  width: 100%;
+  height: 50px;
+}
+
+.nav-sticky-content {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--clr-font);
+  transition: all 0.5s ease;
+}
+
+.menuBar {
+  display: flex;
+  flex-direction: space-between;
+  margin-left: 20px;
+  z-index: 0;
+}
+
+.text {
+  font-size: 2.5rem;
+  justify-content: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.text span {
+  color: var(--clr-primary);
+}
+
+.menu-icon {
+  display: none;
+}
+.nav ul {
+  list-style-type: none;
+}
+
+.nav li {
+  font-size: 1.5rem;
+}
+.navItem {
+  margin-left: 2rem;
+}
+
+.navItem:hover {
+  text-decoration: underline solid var(--clr-font) 3px;
+  text-underline-offset: 0.3em;
+  cursor: pointer;
+}
+
+.menuBarDrop {
+  display: none;
+}
+.menuBarDropSticky {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .menuBar {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menuBarDrop {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--clr-bcg);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .menuBarDropSticky {
+    display: flex;
+    padding: 30px 0px 0px 0px;
+    margin: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-font);
+    background: var(--clr-navBar);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .navItemDrop {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .navItemDrop:hover {
+    background-color: var(--clr-primary);
+  }
+
+  .navItemDropSticky:hover {
+    background-color: var(--clr-primary);
+    color: var(--clr-font);
+  }
+}

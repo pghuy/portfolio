@@ -1,0 +1,290 @@
+.aboutContainer {
+  width: 100%;
+  height: 75vw;
+  padding-top: 5vw;
+  background-color: var(--clr-primary);
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  font-size: 5vw;
+  margin: 0;
+  color: var(--clr-font);
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 2.4vw;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: var(--clr-subTitle);
+}
+
+.maxWidth {
+  padding: 6vw;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aboutContent div {
+  width: 100%;
+  text-align: justify;
+  padding: 2vw 4vw 0vw 2vw;
+  font-size: 2.5vw;
+  border: 0.4vw solid black;
+  transform: translateX(25px);
+  position: relative;
+  z-index: 0;
+}
+
+.aboutContent img {
+  max-width: 100%;
+  height: auto;
+  transform: translateX(0);
+  position: relative;
+  z-index: 1;
+}
+@media only screen and (max-width: 1366px) {
+  .aboutContainer {
+    height: 82vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 42rem;
+    font-size: 2.2vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .aboutContainer {
+    height: 82vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 42rem;
+    font-size: 2.2vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .aboutContainer {
+    height: 83vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 40rem;
+    font-size: 2.2vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+    content: var(--url-figureAbout);
+  }
+}
+@media only screen and (max-width: 1136px) {
+  .aboutContainer {
+    height: 81vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 35rem;
+    font-size: 2.2vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1036px) {
+  .aboutContainer {
+    height: 82vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 32rem;
+    font-size: 2.2vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .aboutContainer {
+    height: 85vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 26rem;
+    font-size: 2.1vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .aboutContainer {
+    height: 85vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 26rem;
+    font-size: 2.1vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .aboutContainer {
+    height: 87vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 23rem;
+    font-size: 2.1vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .aboutContainer {
+    height: 89vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 20rem;
+    font-size: 2.1vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutContainer {
+    height: 90vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 18rem;
+    font-size: 2vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .aboutContainer {
+    height: 90vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 17rem;
+    font-size: 2vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .aboutContainer {
+    height: 91vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: auto;
+    font-size: 2vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .aboutContainer {
+    height: 92vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 13rem;
+    font-size: 2vw;
+  }
+  .aboutContent img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .aboutContainer {
+    height: 91vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 11rem;
+    font-size: 2vw;
+  }
+  .aboutContent img {
+    width: 35%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 384px) {
+  .aboutContainer {
+    height: 90vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 10rem;
+    font-size: 2vw;
+  }
+  .aboutContent img {
+    width: 35%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .aboutContainer {
+    height: 91vw;
+  }
+  .aboutContent div {
+    width: 45%;
+    height: 11rem;
+    font-size: 2vw;
+  }
+  .aboutContent img {
+    width: 35%;
+    height: auto;
+  }
+}
